@@ -320,3 +320,45 @@ body {
   padding: 40px 0;
   background-color: #212349;
 }
+
+.heart .likes-number {
+  margin-left: 24px;
+  line-height: 14px;
+}
+
+.heart {
+  padding: 12px 10px;
+  min-width: 40px;
+  min-height: 34px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 12px;
+  cursor: pointer;
+}
+.heart {
+  color: #6653d9;
+  background-image: url("img/icon-heart-light.svg");
+  opacity: 0.7;
+}
+
+.heart.added {
+  background-image: url("img/icon-heart-light-added.svg");
+}
+
+.heart:focus,
+.heart:hover {
+  opacity: 1;
+}
+
+.heart:focus {
+  outline-color: #b6aaff;
+}
+
+.heart:active {
+  opacity: 1;
+  background-image: url("img/icon-heart-light-active.svg");
+}
